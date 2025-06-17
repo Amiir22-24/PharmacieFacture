@@ -36,17 +36,17 @@ public class Main {
             System.out.println("\t\t\t|-------------------------------------------------|");
             System.out.println("\t\t\t|\tProduit :\t\t\t\t\t" + produit + "|");
             System.out.println("\t\t\t|-------------------------------------------------|");
-            System.out.println("\t\t\t|\tMontant brut :\t\t" + montant * nbrVendu + "fr |");
+            System.out.println("\t\t\t|\tMontant brut :\t\t" + montant * nbrVendu + "fr");
             System.out.println("\t\t\t|-------------------------------------------------|");
             int a = montant * nbrVendu;
-            System.out.println("\t\t\t|\tTaux de la TVA :\t\t" + tauxTVA +"%" + "|");
+            System.out.println("\t\t\t|\tTaux de la TVA :\t\t" + tauxTVA +"%" );
             System.out.println("\t\t\t|-------------------------------------------------|");
-            System.out.println("\t\t\t|\tAutres taxes :\t\t" + ntaux + "%" + "|");
+            System.out.println("\t\t\t|\tAutres taxes :\t\t" + ntaux + "%" );
             System.out.println("\t\t\t|-------------------------------------------------|");
-            System.out.println("\t\t\t|\tMontant de la TVA :\t"+(((a+ntaux) * tauxTVA))/100 +"fr |");
+            System.out.println("\t\t\t|\tMontant de la TVA :\t"+(((a+ntaux) * tauxTVA))/100 +"fr");
             System.out.println("\t\t\t|-------------------------------------------------|");
             int b = ((a * tauxTVA)/100);
-            System.out.println("\t\t\t|\tMontant total :\t\t\t" + (a + b) +"fr|");
+            System.out.println("\t\t\t|\tMontant total :\t\t\t" + (a + b) +"fr");
             System.out.println("\t\t\t|-------------------------------------------------|");
         }
         else {
