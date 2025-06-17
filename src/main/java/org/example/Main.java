@@ -32,9 +32,9 @@ public class Main {
 
 
         if (permiss.equals("OK")){
-            System.out.println("\t\t\t\t\t\t\t\t|Pharmacie :  |");
+            System.out.println("\t\t\t\t\t\t\t\t|Facture : |");
             System.out.println("\t\t\t|-------------------------------------------------|");
-            System.out.println("\t\t\t|\tProduit :\t\t\t\t\t" + produit + "|");
+            System.out.println("\t\t\t|\tProduit :\t\t\t\t\t" + produit );
             System.out.println("\t\t\t|-------------------------------------------------|");
             System.out.println("\t\t\t|\tMontant brut :\t\t" + montant * nbrVendu + "fr");
             System.out.println("\t\t\t|-------------------------------------------------|");
